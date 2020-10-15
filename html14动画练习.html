@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            height: 0;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        .div1{
+            width: 260px;
+            height: 270px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            /* border: 2px solid;
+            border-top-color:darkorange ;
+            border-bottom-color: deeppink;
+            border-left-color: deepskyblue;
+            border-right-color: forestgreen; */
+            background: url(QQ图片20201006094519.png);
+            animation: num 1s 3;
+        }
+        @keyframes num{
+            0%{
+                background: url(QQ图片20201006094519.png);
+            }
+            /* 25%{
+                background: url(QQ图片20201006093848.png);
+            } */
+            50%{
+                background: url(QQ图片20201006094524.png);
+                
+            }
+            /* 75%{
+                background: url(QQ图片20201006093859.png);
+            } */
+            100%{
+                
+                background: url(QQ图片20201006094528.png);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+</body>
+</html>
