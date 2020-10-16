@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    用户名: <input type="text" id="te" placeholder="请输入用户名">
+    <br>
+    <br>
+    密码:  <input type="password" id="" placeholder="请输入用户名">
+    <br>
+    <br>
+    email:  <input type="text" id="" placeholder="请输入用户名">
+    <br>
+    <br>
+    手机号:  <input type="text" id="" placeholder="请输入手机号">
+    <br>
+    QQ主页:  <input type="text" id="" placeholder="请输入QQ">
+    <br>
+    个人主页:  <input type="text" id="" placeholder="请输入个人主页">
+    <br>
+    生日:   <input type="date" id="" placeholder="请输入用生日">
+    <br>
+    照片上传:  <input type="file" id="" >
+    <br>
+     <input type="button" value="验证" onclick="fn()">
+</body>
+  <script>
+      /*function fn() {
+         // alert('click')
+
+      }*/
+      function getId(id){
+          return document.getElementById(id)
+      }
+      function fn(){
+        var un = getId('te').value
+      console.log('un')
+
+      }
+      
+  </script>
+</html>
